@@ -1,0 +1,11 @@
+Deus;1000
+Gabiconica;16
+pluto;4
+pedro;18
+mae;43
+james hetfield;62
+maria eduarda;17
+manu;16
+mica;17
+laura;16
+kirk hammett;62

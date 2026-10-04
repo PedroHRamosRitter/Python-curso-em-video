@@ -1,0 +1,16 @@
+a = input('Digite algo?')
+#Este (a) da linha 1 é um objeto.
+print('O tipo primitivo desse valor é ({}) ='.format(a), type(a))
+#Quando quiser colocar tipo primitivo colocar , type abre parentesês e fecha parentesês(letra neste caso (a) conforme a linha como exemplo type(a)) 1
+print('Todos os caracteres são letras ({})='.format(a) ,a.isalpha())
+print('Todos os caracteres são alfamnúmericos ({}) ='.format(a) ,a.isalnum())
+print('A sequência é composta por todos os caracteres da ASCII ({}) ='.format(a) ,a.isascii())
+print('Todos os objetos do unicod são decimais ({}) ='.format(a) ,a.isdecimal())
+print('Todos os caracteres são digitos ({}) ='.format(a) ,a.isdigit())
+print('Se a sequência é um identificador válido ({}) ='.format(a) ,a.isidentifier())
+print('Todos os caracteres estão tem minísculas ({}) ='.format(a) ,a.islower())
+print('Todos os caracteres são númericos ({})='.format(a) ,a.isnumeric())
+print('Todos os caracteres são imprimíveis ({}) ='.format(a) ,a.isprintable())
+print('Todos os caracteres são somentes espaços ({}) ='.format(a) ,a.isspace())
+print('Cada palvra começara com letra maiúscula/Capitalizada ({}) ='.format(a) ,a.istitle())
+print('Todos os caracteres são letras maiúscula ({}) ='.format(a) , a.isupper())
