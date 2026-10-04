@@ -1,0 +1,11 @@
+from ex010 import *
+from rich import print, inspect
+
+def main():
+    av1 = Avaliacao("Pedro", "Matemática")
+    av1.nota = 3.5
+    print(f"{av1.nome} tirou {av1.nota} em {av1.disciplina}")
+    inspect(av1, private=True ,methods=True) # private -> mostrar os dados privados, no caso nota
+
+if __name__ == "__main__":
+    main()
